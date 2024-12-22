@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-montserrat);
+}
+
+:root {
+    --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    /* background: white; */
+    margin: 0;
+    height: 100vh; /* Agar memenuhi tinggi layar */
+}
+
+.form-container { 
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    padding: 50px; 
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 734px;
+    height: 100vh;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    width: 734px;
+    height: 145vh;
+    margin-left: auto;
+    justify-content: center;
+    background: white;
+}
+
+
+.form-label { 
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    color: #444; 
+    text-align: left;
+} 
+
+.form-input { 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 2px solid #C2C6CC; 
+    border-radius: 15px; 
+    font-size: 16px;
+    font-weight: 600; 
+    width: 424px; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+.form-container ::placeholder {
+    color: #C2C6CC;
+}
+
+.lupa-password1 {
+    text-align: right;
+    font-size: 10px;
+    width: 424px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.btn-submit { 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    background-color: #4cb53f; 
+    color: #fff;
+    width: 261px;
+    font-weight: 600;
+    font-size: 16px;
+} 
+
+.btn-submit:hover { 
+    background-color: green;
+     
+}
